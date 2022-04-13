@@ -15,7 +15,7 @@ features: # 可选的
   - title: Elasticsearch
     details: Elasticsearch学习笔记
     link: /elasticsearch/
-    imgUrl: /img/ui.png
+    imgUrl: /img/elasticsearch.jpeg
   - title: Linux
     details: Linux学习笔记
     link: /linux/
