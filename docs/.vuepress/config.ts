@@ -43,7 +43,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
-    repo: 'https://gitee.com/javaDaCaiNiao/book.git', // 导航栏右侧生成Github链接
+    repo: 'maoHuanZhe/maoHuanZhe.github.io', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: 'docs', // 编辑的文件夹
@@ -84,12 +84,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
       name: '樊光瑞', // 必需
-      link: 'https://gitee.com/javaDaCaiNiao', // 可选的
+      link: 'https://github.com/maoHuanZhe', // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-    avatar: 'https://gitee.com/javaDaCaiNiao/image/raw/master/page/javaDaCaiNiao.png',
+    avatar: 'https://cdn.jsdelivr.net/gh/maoHuanZhe/image@main/20220414/切图-3.6oqf9jz869hc.webp',
       name: '樊光瑞',
       slogan: '一个平平无奇的小菜鸟',
     },
@@ -104,8 +104,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           link: 'mailto:898365387@@qq.com',
         },
         {
-          iconClass: 'icon-gitee',
+          iconClass: 'icon-github',
           title: 'GitHub',
+          link: 'https://github.com/maoHuanZhe',
+        },
+        {
+          iconClass: 'icon-gitee',
+          title: 'Gitee',
           link: 'https://gitee.com/javaDaCaiNiao',
         }
       ],
