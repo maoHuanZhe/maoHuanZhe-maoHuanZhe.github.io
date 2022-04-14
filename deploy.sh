@@ -10,7 +10,7 @@ npm run build
 cd docs/.vuepress/dist
 
 msg='deploy'
-githubUrl=https://github.com/maoHuanZhe/maoHuanZhe.github.io
+githubUrl=git@github.com:maoHuanZhe/maoHuanZhe.github.io.git
 
 git init
 git add -A
