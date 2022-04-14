@@ -10,12 +10,12 @@ npm run build
 cd docs/.vuepress/dist
 
 msg='deploy'
-githubUrl=git@gitee.com:javaDaCaiNiao/book.git
+githubUrl=git@github.com:maoHuanZhe/maoHuanZhe-maoHuanZhe.github.io.git
 
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:dist # 推送到github gh-pages分支
+git push -f $githubUrl main:dist # 推送到github gh-pages分支
 
 cd -
 rm -rf docs/.vuepress/dist
