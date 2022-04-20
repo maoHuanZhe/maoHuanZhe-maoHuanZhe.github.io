@@ -160,7 +160,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 插件配置
   plugins: <UserPlugins>[
-
+    'reading-progress',//阅读进度条
     'vuepress-plugin-baidu-autopush', // 百度自动推送
 
     [
