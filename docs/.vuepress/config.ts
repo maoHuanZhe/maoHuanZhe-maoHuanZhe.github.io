@@ -162,6 +162,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
   plugins: <UserPlugins>[
     'reading-progress',//阅读进度条
     '@vuepress/pwa',
+    'vuepress-plugin-smooth-scroll',//平滑滚动
     'vuepress-plugin-baidu-autopush', // 百度自动推送
 
     [
